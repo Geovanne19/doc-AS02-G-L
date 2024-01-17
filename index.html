@@ -11,219 +11,98 @@
     <h1>Funções</h1>
     <div class="funcoes" onclick="ativar_funcao(this)">
         <div class="cabecalho-funcao">
-            <span class="seta">></span><h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
+            <span class="seta">></span><h2 class="tfuncao">ler_e_inserir_conjunto<span>(</span><span class="tparametros"></span><span>);</span></h2>
         </div>
         <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-            */</p>
+            <p class="tdocumentacao">/* Esta função imprime a mensagem "Digite seu conjunto:" e logo depois lê uma entrada contendo os elementos a serem inseridos em um conjunto, separados por espaço e os insere no conjunto. Logo após, ele verifica e imprime quantos elementos puderam ser inseridos com êxito ou não, pois a estrutura Union&Find não suporta elementos repetidos em nenhum dos conjuntos. É importante ressaltar que várias funções auxiliares foram utilizadas no processo. */</p>
             <br>
             <p class="tdocumentacao">//Corpo da função:</p>
             <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas velit.
-            </div>
+            <img src="imagens/funcao1.png" alt="">
             <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
         </div>
     </div>
     <div class="funcoes" onclick="ativar_funcao(this)">
         <div class="cabecalho-funcao">
             <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
+            <h2 class="tfuncao">ler_e_informar_procura<span>(</span><span class="tparametros">global, especifica</span><span>);</span></h2>
         </div>
         <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
+            <p class="tdocumentacao">/* Esta função pergunta ao usuário qual é o método de pesquisa que ele quer utilizar (por valor ou por índice). Por conseguinte, ela processa a escolha e pergunta qual é o valor que o usuário quer pesquisar como representante de um conjunto, caso o usuário tenha escolhido a busca por valor, ou se por índice, pergunta qual é o valor que ela quer verificar e depois o índice do conjunto no vetor. Depois ela lê a linha e executa a função de busca correspondente. Caso encontrado, ela imprime na tela todos os elementos do conjunto encontrado. E se não houver correspondência, a função imprime a mensagem "Indice ou valor não pertence a nenhum conjunto" */</p>
             <br>
             <p class="tdocumentacao">//Corpo da função:</p>
             <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
+            <img src="imagens/Função2.png" alt="">
             <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
         </div>
     </div>
+
     <div class="funcoes" onclick="ativar_funcao(this)">
         <div class="cabecalho-funcao">
             <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
+            <h2 class="tfuncao">ler_e_mostrar_tamanho_conjunto<span>(</span><span class="tparametros">por_valor,
+                    por_indice</span><span>);</span></h2>
         </div>
         <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
+            <p class="tdocumentacao">/*Esta Função tem o objetivo de mostrar na tela a cardinalidade de um determinado conjunto. Primeiramente, ela perguta ao usuário qual é a forma que ele deseja escolher o conjunto, seja por valor ou por índice. Logo depois, ele processa a escolha e recruta a função de busca correspondente à escolha. Caso ela encontre o conjunto, ela calcula e imprime na tela a quantidade de elementos presentes nele. Caso o conjunto não seja encontrado, ela imprime a mensagem "índex inválido!" ou "o elemento não está em nenhum conjunto" */</p>
             <br>
             <p class="tdocumentacao">//Corpo da função:</p>
             <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
+            <img src="imagens/funcao3.png" alt="">
             <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
         </div>
     </div>
+
     <div class="funcoes" onclick="ativar_funcao(this)">
         <div class="cabecalho-funcao">
             <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
+            <h2 class="tfuncao">ler_e_remover<span>(</span><span class="tparametros">por_valor, por_indice</span><span>);</span></h2>
         </div>
         <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
+            <p class="tdocumentacao">/* Esta função remove um conjunto inteiro da estrutura. Ela primeiro pergunta se o usuário quer escolher o conjunto por indice ou por valor, le a entrada e processa a escolha. Depois, caso seja por indice, ela pergunta, lê e recruta a função de pesquisa por index, e caso encontrado, ele remove automaticamente o conjunto da estrutura, limpa a memória e imprime na tela "Conjunto removido com sucesso". Caso seja por valor, ela recruta a pesquisa por valor, e faz a mesma coisa que no primeiro caso, mas referente ao conjunto que contem aquele valor. Caso ela não encontre um conjunto, imprime "Valor nao esta em nenhum conjunto" ou "index inválido"*/</p>
             <br>
             <p class="tdocumentacao">//Corpo da função:</p>
             <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
+            <img src="imagens/funcao4.png" alt="">
             <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
         </div>
     </div>
+
     <div class="funcoes" onclick="ativar_funcao(this)">
         <div class="cabecalho-funcao">
             <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
+            <h2 class="tfuncao">ler_e_mostrar_conjunto<span>(</span><span class="tparametros">por_valor,
+                    por_indice</span><span>);</span></h2>
         </div>
         <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
+            <p class="tdocumentacao">/* Esta função imprime na tela todos os elementos presentes em um determinado conjunto. Ela primeiro pergunta se o usuário quer escolher o conjunto por
+            indice ou por valor, le a entrada e processa a escolha. Depois, caso seja por indice, ela pergunta, lê e recruta a
+            função de pesquisa por index, e caso encontrado, ele imprime o conjunto. Caso seja por valor, ela recruta a pesquisa por valor, e faz a mesma
+            coisa que no primeiro caso, mas referente ao conjunto que contem aquele valor. Caso ela não encontre um conjunto,
+            imprime "Valor nao esta em nenhum conjunto" ou "index inválido" */</p>
             <br>
             <p class="tdocumentacao">//Corpo da função:</p>
             <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
+            <img src="imagens/funcao5.png" alt="">
             <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
         </div>
-    </div>
+    </div> 
+
     <div class="funcoes" onclick="ativar_funcao(this)">
         <div class="cabecalho-funcao">
             <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
+            <h2 class="tfuncao">unir_conjuntos<span>(</span><span class="tparametros"></span><span>);</span></h2>
         </div>
         <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
+            <p class="tdocumentacao">/* Esta função tem o objetivo de unir dois conjuntos. Para isso, ela pergunta ao usuário qual a maneira que ele quer escolher um conjunto, seja por valor ou por índex. Depois, ela pergunta quais são os dois conjuntos nos quais o usuário quer unir. Logo após, ela realiza a operação de união e apaga na memória o menor conjunto, deixando assim todos os elementos dos dois conjuntos escolhidos contidos no maior conjunto. Caso a operação seja sucedida, ela imprime a mensagem "União entre conjuntos realizada com sucesso", e caso contrário "Uniao entre conjuntos nao pode ser realizada." */</p>
             <br>
             <p class="tdocumentacao">//Corpo da função:</p>
             <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
+            <img src="imagens/funcao6.png" alt="">
             <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
         </div>
     </div>
-    <div class="funcoes" onclick="ativar_funcao(this)">
-        <div class="cabecalho-funcao">
-            <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
-        </div>
-        <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
-            <br>
-            <p class="tdocumentacao">//Corpo da função:</p>
-            <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
-            <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
-        </div>
-    </div>
-    <div class="funcoes" onclick="ativar_funcao(this)">
-        <div class="cabecalho-funcao">
-            <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
-        </div>
-        <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
-            <br>
-            <p class="tdocumentacao">//Corpo da função:</p>
-            <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
-            <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
-        </div>
-    </div>
-    <div class="funcoes" onclick="ativar_funcao(this)">
-        <div class="cabecalho-funcao">
-            <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
-        </div>
-        <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
-            <br>
-            <p class="tdocumentacao">//Corpo da função:</p>
-            <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
-            <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
-        </div>
-    </div>
-    <div class="funcoes" onclick="ativar_funcao(this)">
-        <div class="cabecalho-funcao">
-            <span class="seta">></span>
-            <h2 class="tfuncao">Função<span>(</span><span class="tparametros">num, arvB</span><span>);</span></h2>
-        </div>
-        <div class="oculto">
-            <p class="tdocumentacao">/*Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta quae sint est
-                ducimus suscipit velit eaque atque facere autem reiciendis, sequi voluptates quasi dolor aliquid obcaecati
-                laborum quas nulla corrupti temporibus labore. Rerum quo iusto labore ducimus consequuntur cum sequi
-                obcaecati fugit aliquam deleniti. Atque temporibus vitae tenetur vel?
-                */</p>
-            <br>
-            <p class="tdocumentacao">//Corpo da função:</p>
-            <br>
-            <div class="corpo-funcao">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, similique provident iste nulla, nam
-                inventore maiores dolorem non modi veritatis rem fuga quae? Et doloremque molestiae ullam maiores voluptas
-                velit.
-            </div>
-            <div class="container-run"><button><i class='bx bx-play'>Run</i></button></div>
-        </div>
-    </div>
-    
     <script src="script.js"></script>
 </body>
 </html>
+
