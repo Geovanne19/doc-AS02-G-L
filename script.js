@@ -9,4 +9,6 @@ function ativar_funcao (elemento) {
     
 }
 
-// ltblpg,v
+function run(elemento) {
+    
+}

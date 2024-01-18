@@ -91,7 +91,7 @@ h2 {
 }
 
 .oculto {
-    display: flex;
+    display: none;
     flex-direction: column;
     padding: 8px;
     position: relative;
