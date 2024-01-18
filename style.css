@@ -91,7 +91,7 @@ h2 {
 }
 
 .oculto {
-    display: none;
+    display: flex;
     flex-direction: column;
     padding: 8px;
     position: relative;
@@ -149,4 +149,11 @@ button  .bx-play {
 button > i:hover {
     color: var(--verde);
     border: 1px solid var(--verde);
+}
+
+.exemplo {
+    background: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
 }
