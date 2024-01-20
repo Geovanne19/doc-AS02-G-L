@@ -118,41 +118,6 @@ h2 {
     color: var(--cor-comentario);
 }
 
-.container-run{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    border: 1px solid red;
-    z-index: 99;
-}
-
-button {
-    border: none;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    background: none;
-}
-
-button  .bx-play {
-    color: var(--cor-comentario);
-    font-size: 1.5rem;
-    border: 1px solid var(--cor-comentario);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 5px;
-    cursor: pointer;
-    transition: .3s;
-    font-size: 1rem;
-}
-button > i:hover {
-    color: var(--verde);
-    border: 1px solid var(--verde);
-}
-
 .exemplo {
     background: black;
     border-radius: 10px;
